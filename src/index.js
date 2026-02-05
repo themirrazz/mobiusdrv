@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const driver = require('./index.js');
+const driver = require('./driver.js');
 if(process.argv.length === 2) {
     driver.discover({
         start: function (protocol, name) {
