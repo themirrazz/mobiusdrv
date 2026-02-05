@@ -1,4 +1,4 @@
-sudo pacman -Syu nodejs npm
+sudo pacman --noconfirm -Syu nodejs npm
 sudo mkdir -p /usr/lib/mobiusdrv/sdk
 # Install MobiusDRV
 sudo curl -o /usr/lib/mobiusdrv/package.json https://github.com/themirrazz/mobiusdrv/raw/refs/heads/main/src/package.json

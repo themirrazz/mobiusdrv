@@ -1,5 +1,5 @@
 sudo emerge --sync
-sudo emerge --ask net-libs/nodejs
+sudo emerge net-libs/nodejs
 sudo mkdir -p /usr/lib/mobiusdrv/sdk
 # Install MobiusDRV
 sudo curl -o /usr/lib/mobiusdrv/package.json https://github.com/themirrazz/mobiusdrv/raw/refs/heads/main/src/package.json
